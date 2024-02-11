@@ -10,6 +10,13 @@ In addition, I hope that by making the code available as an open-source project,
 
 My code is based on Apache License 2.0. It allows you to use, modify, and distribute the licensed software, including creating derivative works, without requiring those derivative works to be licensed under the same terms. You can release the modified parts of the code under any license you prefer.
 
+# FOOD BANK SEARCH OPTIONS
+
+- City Name
+- Food Bank Name
+- Zip Code
+- Keywords
+
 # DATASET SOURCE
 
 The Dataset I used is from controller.lacity.gov/data, contain 1852 food banks' name, street adress, city, state, zip code, county, phone number, etc.
