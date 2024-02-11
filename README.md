@@ -10,6 +10,8 @@ My code is based on Apache License 2.0. It allows you to use, modify, and distri
 
 The Dataset I used is from controller.lacity.gov/data, contain 1852 foodbanks' name, street adress, city, state, zip code, county, phone number, etc.
 
+https://controllerdata.lacity.org/dataset/Food-Resources-in-California/v2mg-qsxf/data
+
 # TECHINOLOGY STACK
 
 - HTML5
