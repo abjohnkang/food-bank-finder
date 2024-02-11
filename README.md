@@ -4,7 +4,7 @@ As a student participating in AP with WE, I am undertaking the challenge of crea
 
 My objective is to create a website called "CA Food Bank Finder" aimed at offering comprehensive information regarding local food resources throughout California. Upon entering their city name, users will receive detailed insights into nearby food banks. This information will encompass essential details such as the food bank's name, location, contact details, web link, and more.
 
-In addition, I hope that by making the code available as an open-source project, it will inspire additional efforts beyond my own to foster collaboration and innovation in the realm of food scarcity. This methodology enables the instrument to be continuously enhanced and adapted in order to more effectively address the changing requirements of communities grappling with food insecurity. The ultimate objective is to develop a resource that provides the means for communities and individuals to effectively confront challenges related to food resources.
+In addition, I hope that by making the code available as an open-source project, it will inspire additional efforts beyond my own to foster collaboration and innovation in the realm of food scarcity. This enables the instrument to be continuously enhanced and adapted in order to more effectively address the changing requirements of communities grappling with food insecurity. The ultimate objective is to develop a resource that provides the means for communities and individuals to effectively confront challenges related to food resources.
 
 # OPEN SOURCE PROJECT
 
