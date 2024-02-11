@@ -6,7 +6,7 @@ My objective is to create a website called "CA Food Bank Finder" aimed at offeri
 
 In addition, I hope that by making the code available as an open-source project, it will inspire additional efforts beyond my own to foster collaboration and innovation in the realm of food scarcity. This enables the instrument to be continuously enhanced and adapted in order to more effectively address the changing requirements of communities grappling with food insecurity. The ultimate objective is to develop a resource that provides the means for communities and individuals to effectively confront challenges related to food resources.
 
-# OPEN SOURCE PROJECT
+# LICENSE
 
 My code is based on Apache License 2.0. It allows you to use, modify, and distribute the licensed software, including creating derivative works, without requiring those derivative works to be licensed under the same terms. You can release the modified parts of the code under any license you prefer.
 
