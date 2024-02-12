@@ -27,6 +27,8 @@ https://controllerdata.lacity.org/dataset/Food-Resources-in-California/v2mg-qsxf
 
 - HTML5
 - JAVA Script
+- Bootstrap
+- jQuery
 
 # HOW TO DEPLOY
 `git clone https://github.com/abjohnkang/food-bank-finder.git`
