@@ -32,4 +32,4 @@ https://controllerdata.lacity.org/dataset/Food-Resources-in-California/v2mg-qsxf
 `git clone https://github.com/abjohnkang/foodbank.git`
 
 # HOW TO RUN
-open index.html to open CA Food Bank Finder
+Double click index.html to launch CA Food Bank FInder on your browser
