@@ -30,6 +30,10 @@ https://controllerdata.lacity.org/dataset/Food-Resources-in-California/v2mg-qsxf
 - Bootstrap
 - jQuery
 
+# GOOGLE MAP LINK LOGIC
+Dataset provides location information that based on Latitude and Longitude, so it can be easily mapped with google map like like below:
+`https://www.google.com/maps/search/<Latitude>,<Longitude>?entry=tts`
+
 # HOW TO DEPLOY
 `git clone https://github.com/abjohnkang/food-bank-finder.git`
 
