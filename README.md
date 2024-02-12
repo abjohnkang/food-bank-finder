@@ -29,7 +29,7 @@ https://controllerdata.lacity.org/dataset/Food-Resources-in-California/v2mg-qsxf
 - JAVA Script
 
 # HOW TO INSTALL
-`git clone https://github.com/abjohnkang/foodbank.git`
+`git clone https://github.com/abjohnkang/food-bank-finder.git`
 
 # HOW TO RUN
-Double click index.html to launch CA Food Bank FInder on your browser
+After cloning the above code, you can lunch the app by clicking index.html on your desktop
