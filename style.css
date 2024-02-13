@@ -1,4 +1,7 @@
-p.content {
+div.content {
     font-family: Cambria;
+}
+
+p.content {
     font-size: 20px;
 }
