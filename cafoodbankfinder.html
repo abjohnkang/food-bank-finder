@@ -11,6 +11,9 @@
         
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="foodbank_lib.js" crossorigin="anonymous"></script>
+
         <link rel="stylesheet" type="text/css" href="style.css">
         
         <title>CA Food Bank Finder</title>
@@ -21,9 +24,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h1>Nothing Yet</h1>
+                    <a href="javascript:display_county_list('#output')">County List</a> | <a href="javascript:display_city_list('#output')">City List</a><br>
+                    <hr>
+                    <div id="output"></div>
                 </div>
             </div>
         </div>
     </body>
 </html>
+
+<script>
+	load_dataset("#output");
+</script>
