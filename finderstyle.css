@@ -40,7 +40,7 @@ body {
 }
 
 .back-button a {
-    padding: 10px 20px;
+    padding-left: 10px;
     text-decoration: none;
     border-radius: 5px;
 }
