@@ -5,3 +5,7 @@ div.content {
 p.content {
     font-size: 20px;
 }
+
+.jumbotron h1 {
+    margin-top: 0;
+}
