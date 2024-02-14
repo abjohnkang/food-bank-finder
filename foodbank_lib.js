@@ -117,10 +117,15 @@ function search(target, keyword)
 {
 	var html = '';
 
-	// https://abjohn.com/java/196/Regular-Expressions-in-JavaScript/
-	var regex = new RegExp("/" + keyword + "/i");
+	keyword = keyword.replace(" ", "(.*)");
+	console.log("search [" + keyword + "]");
 
+	// https://abjohn.com/java/196/Regular-Expressions-in-JavaScript/
+	var regex = new RegExp( keyword, 'i');
+
+	count = 0;
 	g_dataset.data.forEach( function(v) {
+		console.log(v);
 		if (
 			v.City.match(regex)
 			||
@@ -131,16 +136,22 @@ function search(target, keyword)
 			v.StreetAddress.match(regex)
 		)
 		{
+			count++;
 			html += get_table_row(v);
 		}
 	});
 
 	if (html!='')
 	{
-		html = `<table>`
+		html = `Total ` + count + ` food bankers listed<br><br>
+		<table>`
 		+ get_table_header()
 		+ html
 		+ `</table>`;
+	}
+	else
+	{
+		html = `No data available based in ` + keyword + `<br>`;
 	}
 
 	$( target).html(html);
