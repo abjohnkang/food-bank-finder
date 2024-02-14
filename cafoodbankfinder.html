@@ -25,10 +25,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <a href="javascript:display_county_list('#output')">County List</a> | <a href="javascript:display_city_list('#output')">City List</a><br>
-
+                    <a href="javascript:display_county_list('#output')">County List</a> |
+                    <a href="javascript:display_city_list('#output')">City List</a> |
+                    <input type="text" name="q" size=20> <button onclick="javascript:search('#output',document.getElementsByName('q')[0].value);">Search</button><br>
                     <hr>
-
                     <div id="output"></div>
                 </div>
             </div>
