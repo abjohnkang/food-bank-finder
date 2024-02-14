@@ -22,8 +22,6 @@ body {
     border-collapse: collapse;
 }
 
-/* #output table th, */
-
 #output table td {
     padding: 10px;
     border: 1px solid #ccc;
