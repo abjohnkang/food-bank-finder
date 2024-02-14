@@ -30,12 +30,5 @@ body {
 
 /* Button */
 .back-button {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.back-button a {
-    padding-left: 10px;
-    text-decoration: none;
-    border-radius: 5px;
+    margin-left: 20px;
 }
