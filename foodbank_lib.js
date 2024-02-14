@@ -117,11 +117,11 @@ function search(target, keyword)
 {
 	var html = '';
 
-	keyword = keyword.replace(" ", "(.*)");
-	console.log("search [" + keyword + "]");
+	keyword_converted = keyword.replace(" ", "(.*)");
+	console.log("search [" + keyword_converted + "]");
 
 	// https://abjohn.com/java/196/Regular-Expressions-in-JavaScript/
-	var regex = new RegExp( keyword, 'i');
+	var regex = new RegExp( keyword_converted, 'i');
 
 	count = 0;
 	g_dataset.data.forEach( function(v) {
