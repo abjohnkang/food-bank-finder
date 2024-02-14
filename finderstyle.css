@@ -6,12 +6,24 @@ body {
 }
 
 .container {
-    margin-top: 50px;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.page-header {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
 }
 
 .search-container {
-    margin-bottom: 20px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .search-container input[type="text"] {
@@ -52,10 +64,28 @@ body {
     text-decoration: underline;
 }
 
+/* Result Display */
 #output {
     margin-top: 20px;
 }
 
+#output table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#output table th,
+#output table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#output table th {
+    background-color: #337ab7;
+    color: #fff;
+}
+
+/* Back to Home Button */
 .back-button {
     text-align: center;
     margin-top: 20px;
