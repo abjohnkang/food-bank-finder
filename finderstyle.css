@@ -85,20 +85,3 @@ body {
     color: #fff;
 }
 
-/* Back to Home Button */
-.back-button {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.back-button a {
-    background-color: #337ab7;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.back-button a:hover {
-    background-color: #23527c;
-}
