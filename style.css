@@ -6,6 +6,7 @@ p.content {
     font-size: 20px;
 }
 
-.jumbotron h1 {
-    margin-top: 0;
+.jumbotron {
+    margin: 0;
+    padding: 0;
 }
