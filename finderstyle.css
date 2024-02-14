@@ -1,6 +1,3 @@
-/* style.css */
-
-/* Body */
 body {
     font-family: Arial, sans-serif;
     background-color: #f8f8f8;
@@ -12,15 +9,6 @@ body {
     margin-top: 50px; /* Adjust as needed */
 }
 
-/* Header */
-.page-header {
-    background-color: #337ab7;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-}
-
-/* Search Box */
 .search-container {
     margin-bottom: 20px;
     text-align: center;
