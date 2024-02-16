@@ -90,16 +90,28 @@ function county_list(target)
 	g_dataset.county.forEach( function(v) {
 		if (v!=null)
 		{
-			console.log(v);
-			// if (html!='') html += ' | ';
-			// html += `<a href="javascript:search_county('` + target + `','` + encodeURIComponent(v) + `')">` + v + `</a>`;
+			// console.log(v);
 			
-			html +=
+			/*
+			if (html!='') html += ' | ';
+			tmp = `<a href="javascript:search_county('[target]','[encoded_v]')">[v]</a>`;
+			tmp = tmp.replace("[target]", target);
+			tmp = tmp.replace("[encoded_v]", encodeURIComponent(v));
+			tmp = tmp.replace("[v]", v);
+			html += tmp;
+			*/
+
+
+			tmp =
 			`<table border="1">
 				<tr>
-					<td>` + v + `</td>
+					<td><a href="javascript:search_county('[target]','[encoded_v]')">[v]</a></td>
 				</tr>
 			</table>`;
+			tmp = tmp.replace("[target]", target);
+			tmp = tmp.replace("[encoded_v]", encodeURIComponent(v));
+			tmp = tmp.replace("[v]", v);
+			html += tmp;
 		}
 	});
 	//console.log(html);
