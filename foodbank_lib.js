@@ -90,6 +90,7 @@ function county_list(target)
 	g_dataset.county.forEach( function(v) {
 		if (v!=null)
 		{
+			console.log(v);
 			// if (html!='') html += ' | ';
 			// html += `<a href="javascript:search_county('` + target + `','` + encodeURIComponent(v) + `')">` + v + `</a>`;
 			
