@@ -92,16 +92,14 @@ function county_list(target)
 		{
 			// console.log(v);
 			
-			/*
 			if (html!='') html += ' | ';
 			tmp = `<a href="javascript:search_county('[target]','[encoded_v]')">[v]</a>`;
 			tmp = tmp.replace("[target]", target);
 			tmp = tmp.replace("[encoded_v]", encodeURIComponent(v));
 			tmp = tmp.replace("[v]", v);
 			html += tmp;
-			*/
 
-
+			/*
 			tmp =
 			`<table border="1">
 				<tr>
@@ -112,6 +110,7 @@ function county_list(target)
 			tmp = tmp.replace("[encoded_v]", encodeURIComponent(v));
 			tmp = tmp.replace("[v]", v);
 			html += tmp;
+			*/
 		}
 	});
 	//console.log(html);
