@@ -91,7 +91,7 @@ function county_list(target)
 		if (v!=null)
 		{
 			if (html!='') html += ' | ';
-			html += `<a href="javascript:search_county('` + target + `','` + encodeURIComponent(v) + `')" class="btn btn-outline-dark btn-sm">` + v + `</a>`;
+			html += `<a href="javascript:search_county('` + target + `','` + encodeURIComponent(v) + `')" class="btn btn-default btn-sm">` + v + `</a>`;
 			/*
 			html +=
 			`<table border="1">
