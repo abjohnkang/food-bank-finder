@@ -94,6 +94,7 @@ function county_list(target)
 			html += `<a href="javascript:search_county('` + target + `','` + encodeURIComponent(v) + `')">` + v + `</a>`;
 		}
 	});
+	console.log(html):
 
 	return html;
 }
@@ -228,13 +229,13 @@ function load_dataset(target)
 	// Load List
 	$.ajax({
 		url: "https://abjohn.com/repo/2024_01/188/foodbank_processed.json",
-		success: function(json)
+		success: function(result)
 		{
 			// copy dataset
-			g_dataset = json;
-			console.log(json); 
+			g_dataset = result;
+			console.log(result); 
 
-			g_county_list = county_list( target, null);
+			g_county_list = county_list(target);
 
 			display_county_list(target);
 		}
