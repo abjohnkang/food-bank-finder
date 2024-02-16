@@ -97,7 +97,7 @@ function county_list(target)
 			html +=
 			`<table border="1">
 				<tr>
-					<td>`+v.County+`</td>
+					<td>` + v + `</td>
 				</tr>
 			</table>`;
 		}
