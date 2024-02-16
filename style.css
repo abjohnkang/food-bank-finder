@@ -5,3 +5,7 @@ div.content {
 p.content {
     font-size: 20px;
 }
+
+.featured-text {
+    color: darkred;
+}
