@@ -94,7 +94,7 @@ function county_list(target)
 			html += `<a href="javascript:search_county('` + target + `','` + encodeURIComponent(v) + `')">` + v + `</a>`;
 		}
 	});
-	console.log(html);
+	//console.log(html);
 
 	return html;
 }
@@ -237,7 +237,7 @@ function load_dataset(target)
 
 			g_county_list = county_list(target);
 
-			display_county_list(target);
+			//display_county_list(target);
 		}
 	});
 }
