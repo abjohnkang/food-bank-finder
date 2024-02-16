@@ -94,7 +94,7 @@ function county_list(target)
 			html += `<a href="javascript:search_county('` + target + `','` + encodeURIComponent(v) + `')">` + v + `</a>`;
 		}
 	});
-	console.log(html):
+	console.log(html);
 
 	return html;
 }
