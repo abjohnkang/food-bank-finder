@@ -90,16 +90,15 @@ function county_list(target)
 	g_dataset.county.forEach( function(v) {
 		if (v!=null)
 		{
-			if (html!='') html += ' | ';
-			html += `<a href="javascript:search_county('` + target + `','` + encodeURIComponent(v) + `')" class="btn btn-default btn-sm">` + v + `</a>`;
-			/*
+			// if (html!='') html += ' | ';
+			// html += `<a href="javascript:search_county('` + target + `','` + encodeURIComponent(v) + `')">` + v + `</a>`;
+			
 			html +=
 			`<table border="1">
 				<tr>
-					<td>[County]</td>
+					<td>`+v.County+`</td>
 				</tr>
 			</table>`;
-			*/
 		}
 	});
 	//console.log(html);
