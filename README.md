@@ -27,8 +27,8 @@ https://controllerdata.lacity.org/dataset/Food-Resources-in-California/v2mg-qsxf
 
 - HTML5
 - JAVA Script
-- Bootstrap
-- jQuery
+- Bootstrap 3.3.7
+- jQuery 3.4.1
 
 # GOOGLE MAP LINK LOGIC
 Dataset provides location information that based on Latitude and Longitude, so it can be easily mapped with google map like like below:
