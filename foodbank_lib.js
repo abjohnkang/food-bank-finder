@@ -160,7 +160,7 @@ function search(target, keyword)
 	keyword_converted = keyword.replace(" ", "(.*)");
 	console.log("search [" + keyword_converted + "]");
 
-	// create pattern
+	// Creating pattern
 	// https://abjohn.com/java/196/Regular-Expressions-in-JavaScript/
 	var regex = new RegExp( keyword_converted, 'i');
 
@@ -252,18 +252,19 @@ function search_county(target, county)
 	$( target).html(html);
 }
 
+// City List displaying
 function display_city_list(target, county)
 {
 	$(target).html(city_list(target, county));
 }
 
-
+// County List displaying
 function display_county_list(target)
 {
 	$(target).html( county_list(target));
 }
 
-
+// Loading dataset
 function load_dataset(target)
 {
 	// Load List
