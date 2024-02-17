@@ -40,11 +40,11 @@ function get_table_row( v )
 		Name: "Fortuna Adventist\ncommunity Services (food Resources)"
 		Notes: null
 		Phone: "707-725-1166"
-		Resource Type: "Food Pantry"
+		ResourceType: "Food Pantry"
 		State: "CA"
 		Street Address: "2331 Rohnerville  Road"
-		Web Link: "http://fortunaacs.com/"
-		Zip Code: "95540"
+		WebLink: "http://fortunaacs.com/"
+		ZipCode: "95540"
 		created_at: 1597098370
 		id: "00000000-0000-0000-CA59-6FF5499795AB"
 		sid: "row-t3a5_hmk5.xfub"
@@ -135,11 +135,32 @@ function city_list(target, county)
 
 function search(target, keyword)
 {
+	/*
+		City: "Fortuna"
+		County: "Humboldt"
+		Description: "Serving the Eel River Valley, provides info on community resources and operates a thrift\nstore, clothing closet, and food pantry. Bilingual staff available Tuesday and Wednesday 9:30\na.m. to 11:30 a.m."
+		Latitude: "40.594776"
+		Longitude: "-124.142125"
+		Name: "Fortuna Adventist\ncommunity Services (food Resources)"
+		Notes: null
+		Phone: "707-725-1166"
+		ResourceType: "Food Pantry"
+		State: "CA"
+		Street Address: "2331 Rohnerville  Road"
+		WebLink: "http://fortunaacs.com/"
+		ZipCode: "95540"
+		created_at: 1597098370
+		id: "00000000-0000-0000-CA59-6FF5499795AB"
+		sid: "row-t3a5_hmk5.xfub"
+		updated_at: 1597098370
+	*/
+
 	var html = '';
 
 	keyword_converted = keyword.replace(" ", "(.*)");
 	console.log("search [" + keyword_converted + "]");
 
+	// create pattern
 	// https://abjohn.com/java/196/Regular-Expressions-in-JavaScript/
 	var regex = new RegExp( keyword_converted, 'i');
 
