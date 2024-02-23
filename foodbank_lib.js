@@ -87,9 +87,9 @@ function get_table_row( v )
 function county_list(target)
 {
 	var html = '';
-	for(var i=0; i<g_dataset.data.length; i++)
+	for(var i=0; i<g_dataset.county.length; i++)
 	{
-		var v=g_dataset.data[i];
+		var v=g_dataset.county[i];
 
 		if (v!=null)
 		{
@@ -122,12 +122,12 @@ function county_list(target)
 }
 
 
-function city_list(target, county)
+function city_list(target)
 {
 	var html = '';
-	for(var i=0; i<g_dataset.data.length; i++)
+	for(var i=0; i<g_dataset.city.length; i++)
 	{
-		var v=g_dataset.data[i];
+		var v=g_dataset.city[i];
 
 		if (v!=null)
 		{
@@ -270,9 +270,9 @@ function search_county(target, county)
 }
 
 // City List displaying
-function display_city_list(target, county)
+function display_city_list(target)
 {
-	$(target).html(city_list(target, county));
+	$(target).html(city_list(target));
 }
 
 // County List displaying
