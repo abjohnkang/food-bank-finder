@@ -165,8 +165,31 @@ function search(target, keyword)
 	var regex = new RegExp( keyword_converted, 'i');
 
 	count = 0;
+	for(var i=0; i<g_dataset.data.length; i++)
+	{
+		var v = g_dataset.data[i];
+		console.log(v);
+
+		//search pattern
+		if (
+			v.City.match(regex)
+			||
+			v.County.match(regex)
+			||
+			v.Name.match(regex)
+			||
+			v.StreetAddress.match(regex)
+		)
+		{
+			count++;
+			html += get_table_row(v);
+		}
+	}
+/*
 	g_dataset.data.forEach( function(v) {
 		console.log(v);
+		
+		//search pattern
 		if (
 			v.City.match(regex)
 			||
@@ -181,7 +204,8 @@ function search(target, keyword)
 			html += get_table_row(v);
 		}
 	});
-	//search pattern
+*/
+
 
 	if (html!='')
 	{
