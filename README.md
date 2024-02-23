@@ -17,9 +17,9 @@ My code is based on Apache License 2.0. It allows you to use, modify, and distri
 - Zip Code
 - Keywords
 
-# DATASET SOURCE
+# DATA SET SOURCE
 
-The Dataset I used is from controller.lacity.gov/data, contain 1852 food banks' name, street adress, city, state, zip code, county, phone number, etc.
+The data set I used is from controller.lacity.gov/data, contain 1852 food banks' name, street adress, city, state, zip code, county, phone number, etc.
 
 https://controllerdata.lacity.org/dataset/Food-Resources-in-California/v2mg-qsxf/data
 
@@ -31,7 +31,7 @@ https://controllerdata.lacity.org/dataset/Food-Resources-in-California/v2mg-qsxf
 - jQuery 3.4.1
 
 # GOOGLE MAP LINK LOGIC
-Dataset provides location information that based on Latitude and Longitude, so it can be easily mapped with google map like like below:
+Data set provides location information that based on Latitude and Longitude, so it can be easily mapped with google map like like below:
 `https://www.google.com/maps/search/<Latitude>,<Longitude>?entry=tts`
 
 # DEMO URL
