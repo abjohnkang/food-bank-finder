@@ -6,6 +6,13 @@ p.content {
     font-size: 20px;
 }
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+}
+
 .featured-text {
     color: darkred;
     font-size: 110%;
