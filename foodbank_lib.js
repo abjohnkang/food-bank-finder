@@ -157,7 +157,7 @@ function search(target, keyword)
 
 	var html = '';
 
-	keyword_converted = keyword.replace(" ", "(.*)");
+	keyword_converted = keyword.replace(" ", "(.*)"); //regular expression pattern
 	console.log("search [" + keyword_converted + "]");
 
 	// Creating pattern
@@ -181,6 +181,7 @@ function search(target, keyword)
 			html += get_table_row(v);
 		}
 	});
+	//search pattern
 
 	if (html!='')
 	{
