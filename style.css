@@ -33,3 +33,7 @@ div.info img {
     font-size: 110%;
     font-weight: bold;
 }
+
+.userlist li {
+    font-size: 17px;
+  }
