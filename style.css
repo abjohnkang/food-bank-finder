@@ -43,10 +43,10 @@ div.border {
     font-size: 18px;
   }
 
-  .margintop20 {
-    margin-top: 20px;
-  }
+.margintop20 {
+   margin-top: 20px;
+}
 
-  #johnny {
+#johnny {
     height: 400px;
-  }
+}
