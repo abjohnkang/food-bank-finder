@@ -43,6 +43,10 @@ div.border {
     font-size: 18px;
   }
 
+  .margintop40 {
+    margin-top: 60px;
+  }
+
   #johnny {
     height: 400px;
   }
